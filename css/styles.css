@@ -488,7 +488,8 @@ color: #FFFFFF;
   border-radius: 50%;
   cursor: pointer;
 }
-.social-link:hover,:focus{
+.social-link:hover,
+.social-link:focus{
   background-color: var(--accent-color);
 }
 .social-list{
@@ -499,9 +500,7 @@ color: #FFFFFF;
 .social-list .item + .item{
   margin-left: 10px;
 }
-.footer-nav{
-  display: flex;
-}
+
 .social{
   margin-left: 70px;
 
